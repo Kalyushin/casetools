@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Список имеющихся целей"
+awk '{print $1}' Makefile | grep ':$' | grep -v '^\.'| grep -v '^\%' | sed 's/.$//'
