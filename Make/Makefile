@@ -17,7 +17,7 @@ testRun: filter
 install: filter  ## установка
 	install ./filter images
 
-documentation: ## сборка документации
+documentation: ## сборка документации вот тут
 	doxygen Doxyfile
 
 zip:
